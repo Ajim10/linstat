@@ -64,7 +64,7 @@ func main() {
 ```
 
 ## Projektstruktur
-
+```
 linstat/ # Root des Projekts
 │
 ├─ sysinfo/ # Package für Systeminformationen
@@ -82,7 +82,7 @@ linstat/ # Root des Projekts
 │
 ├─ main.go # Beispielprogramm, das alle Infos ausgibt
 └─ README.md # Diese Dokumentation
-
+```
 ### Erklärung
 - **sysinfo/cpu** → liest CPU-Daten (Temperatur, Anzahl der Kerne, etc.)  
 - **sysinfo/memory** → liefert Infos über RAM (Total, Free, Buffers, Cached)
